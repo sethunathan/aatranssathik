@@ -71,7 +71,7 @@
                         <a href="{{ url('/home') }}">Home</a>
                     @else
                         <a href="{{ url('/admin') }}">Admin </a>
-                        <a href="{{ url('/register') }}">Register </a>
+                        
                         
                     @endauth
                 </div>
@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome to SB Blue Metals
+                    Welcome to A.A. TRANS SITHIK
                 </div>
 
                
