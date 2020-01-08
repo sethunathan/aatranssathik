@@ -16,6 +16,13 @@
                 </li>
                 
                 @endadmin 
+                <li>
+                    <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-settings"></i>
+                        <span class="hide-menu">Transactions</span></a>
+                    <ul aria-expanded="false" class="collapse"> 
+                        <li><a href="{{ url('admin/accounts')}}">Enquiry </a></li>   
+                    </ul>
+                </li>
                     <li>
                         <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-settings"></i>
                             <span class="hide-menu">Master</span></a>
